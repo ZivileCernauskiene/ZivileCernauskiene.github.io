@@ -20,7 +20,9 @@
 .third {
     background-color: brown;
     width: 300px;
+    height: 100vh;
     position: fixed;
+    justify-content: center
 }
 
 .index a,
@@ -32,8 +34,9 @@
 .index button,
 .secnd button,
 .third button {
-    height: 50px;
+    height: 40px;
     font-size: 25px;
+    margin: 10px;
 }
 
 .keturimygtukai {
@@ -81,6 +84,7 @@
     justify-content: center;
     text-transform: capitalize;
     font-size: 30px;
+    margin-left: 300px;
 }
 
 .klausimynas label {

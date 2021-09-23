@@ -59,7 +59,9 @@ function funk1() {
 function funk2() {
     if (document.getElementById("kl2taip").checked) {
         document.getElementsByClassName("KL2")[0].style.display = "none";
+
         document.getElementsByClassName("KL3")[0].style.display = "flex"
+
     } else {
         document.getElementsByClassName("KL2")[0].style.display = "none";
         document.getElementsByClassName("klaida")[0].style.display = "flex"
