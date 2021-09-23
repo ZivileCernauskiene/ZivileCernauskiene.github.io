@@ -1,0 +1,99 @@
+.index,
+.secnd,
+.third {
+    background-color: rgb(24, 168, 56);
+    display: flex;
+    height: 400px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.secnd {
+    background-color: blue;
+    color: white;
+}
+
+.third {
+    background-color: brown;
+}
+
+.index a,
+.secnd a,
+.third a {
+    color: white;
+}
+
+.index button,
+.secnd button,
+.third button {
+    height: 50px;
+    font-size: 25px;
+}
+
+.keturimygtukai {
+    display: flex;
+    height: 400px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.keturimygtukai button {
+    height: 50px;
+    font-size: 25px;
+}
+
+.kubasred {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: none;
+}
+
+.kubaszalias {
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.kubasdideja {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: none;
+}
+
+.klausimynas {
+    display: flex;
+    height: 100vh;
+    background-color: violet;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.KL1 {
+    display: block;
+}
+
+.KL2,
+.KL3,
+.KL4,
+.KL5,
+.perfecta {
+    display: none;
+}
+
+.perfecta {
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}

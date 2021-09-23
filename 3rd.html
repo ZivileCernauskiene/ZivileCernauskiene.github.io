@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klausimynas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="third">
+        <h1>Sveiki atvyke i trecia puslapi</h1>
+        <a href="index.html">Mano Pirmas puslapis</a>
+        <button onclick="index()">Pirmas puslapis</button>
+        <a href="2nd.html">Mano Antras puslapis</a>
+        <button onclick="antras()">Trecias puslapis</button>
+    </div>
+    <div class="klausimynas">
+        <div class="KL1">
+            <form>
+                <p>Ar zeme yra apvali?</p>
+                <label>taip</label>
+                <input type="radio" id="kl1taip" name="kl1">
+                <label>ne</label>
+                <input type="radio" name="kl1">
+                <input type="button" value="kitas klausimas" onclick="funk1()">
+            </form>
+        </div>
+
+        <div class="KL2">
+            <form id="kl2">
+                <p>Ar saule yra geltona?</p>
+                <label for="kl2">taip</label>
+                <input type="radio" id="kl2taip" name="kl2" value="taip">
+                <label for="kl2">ne</label>
+                <input type="radio" name="kl2" value="ne">
+                <input type="button" value="kitas klausimas" onclick="funk2()">
+            </form>
+        </div>
+
+        <div class="KL3">
+            <form>
+                <p>Ar zole yra zalia?</p>
+                <label for="kl3">taip</label>
+                <input type="radio" id="kl3taip" name="kl3" value="taip">
+                <label for="kl3">ne</label>
+                <input type="radio" name="kl3" value="ne">
+                <input type="button" value="kitas klausimas" onclick="funk3()">
+            </form>
+        </div>
+
+        <div class="KL4">
+            <form>
+                <p>Ar zole yra zalia?</p>
+                <label>taip</label>
+                <input type="radio" id="kl4taip" name="kl4" value="taip">
+                <label>ne</label>
+                <input type="radio" name="kl4" value="ne">
+                <input type="button" value="kitas klausimas" onclick="funk4()">
+            </form>
+        </div>
+
+        <div class="KL5">
+            <form>
+                <p>Ar 5 yra 5?</p>
+                <label>taip</label>
+                <input type="radio" id="kl5taip" name="kl5" value="taip">
+                <label for="kl3">ne</label>
+                <input type="radio" name="kl5" value="ne">
+                <input type="button" value="kitas klausimas" onclick="funk5()">
+            </form>
+        </div>
+        <div class="perfecta">
+
+        </div>
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
