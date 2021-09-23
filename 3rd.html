@@ -11,68 +11,95 @@
 
 <body>
     <div class="third">
-        <h1>Sveiki atvyke i trecia puslapi</h1>
-        <a href="index.html">Mano Pirmas puslapis</a>
-        <button onclick="index()">Pirmas puslapis</button>
-        <a href="2nd.html">Mano Antras puslapis</a>
-        <button onclick="antras()">Trecias puslapis</button>
+
+        <a href="index.html">Home page</a>
+        <button onclick="index()">Home</button>
+        <a href="2nd.html">Back to squares</a>
+        <button onclick="antras()">Squares</button>
     </div>
     <div class="klausimynas">
+        <h1>This is a quiz</h1>
         <div class="KL1">
-            <form>
-                <p>Ar zeme yra apvali?</p>
-                <label>taip</label>
+
+
+            <p>How long is a month?</p>
+
+            <div>
                 <input type="radio" id="kl1taip" name="kl1">
-                <label>ne</label>
-                <input type="radio" name="kl1">
-                <input type="button" value="kitas klausimas" onclick="funk1()">
-            </form>
+                <label for="kl1taip">30,5 days</label></div>
+            <div>
+                <input type="radio" name="kl1" id="ne1">
+                <label for="ne1">10,5 days</label></div>
+
+            <button onclick="funk1()"> Next</button>
         </div>
 
         <div class="KL2">
             <form id="kl2">
-                <p>Ar saule yra geltona?</p>
-                <label for="kl2">taip</label>
-                <input type="radio" id="kl2taip" name="kl2" value="taip">
-                <label for="kl2">ne</label>
-                <input type="radio" name="kl2" value="ne">
-                <input type="button" value="kitas klausimas" onclick="funk2()">
-            </form>
+                <p>Who is the author of "The shining"</p>
+                <div>
+                    <input type="radio" id="kl2taip" name="kl2">
+                    <label for="kl2taip">Steven King</label></div>
+                <div>
+                    <input type="radio" name="kl2" id="kl2ne">
+                    <label for="kl2ne">Me</label></div>
+
+                <button onclick="funk2()">Next</button>
         </div>
 
         <div class="KL3">
-            <form>
-                <p>Ar zole yra zalia?</p>
-                <label for="kl3">taip</label>
-                <input type="radio" id="kl3taip" name="kl3" value="taip">
-                <label for="kl3">ne</label>
-                <input type="radio" name="kl3" value="ne">
-                <input type="button" value="kitas klausimas" onclick="funk3()">
-            </form>
+
+            <p>Who lives undergound?</p>
+
+            <input type="radio" id="kl3taip" name="kl3">
+            <label for="kl3taip">Mole</label>
+
+            <input type="radio" name="kl3" id="kl3ne">
+            <label for="kl3ne">Parrot</label>
+
+
+            <button onclick="funk3()">Next</button>
         </div>
 
         <div class="KL4">
             <form>
-                <p>Ar zole yra zalia?</p>
-                <label>taip</label>
-                <input type="radio" id="kl4taip" name="kl4" value="taip">
-                <label>ne</label>
-                <input type="radio" name="kl4" value="ne">
-                <input type="button" value="kitas klausimas" onclick="funk4()">
+                <p>What is the main video chanel used globally?</p>
+
+                <input type="radio" id="kl4taip" name="kl4">
+                <label for="kl4taip">Yuotube.com</label>
+
+                <input type="radio" name="kl4" id="kl4ne">
+                <label for="kl4ne">Delfi.lt</label>
+
             </form>
+            <button onclick="funk4()">Next</button>
         </div>
 
         <div class="KL5">
-            <form>
-                <p>Ar 5 yra 5?</p>
-                <label>taip</label>
-                <input type="radio" id="kl5taip" name="kl5" value="taip">
-                <label for="kl3">ne</label>
-                <input type="radio" name="kl5" value="ne">
-                <input type="button" value="kitas klausimas" onclick="funk5()">
-            </form>
+
+            <p>What is this:</p>
+            <img width="100px" src="http://nesergu.lt/wp-content/uploads/2015/10/shutterstock_137478770.jpg" alt="apple">
+            <div><label for="kl5taip">Apple</label>
+                <input type="radio" id="kl5taip" name="kl5">
+            </div>
+            <div><label for="kl5ne">Banana</label>
+                <input type="radio" name="kl5" id="kl5ne">
+            </div>
+            <button onclick="funk5()">Next</button>
+
         </div>
+
+        <div class="klaida">
+            <h1>Wrong</h1>
+            <p>Better luck next time</p>
+            <button onclick="refresh()">Try again</button>
+        </div>
+
         <div class="perfecta">
+            <h1>Congratulations</h1>
+            <p>You are a very smart person and now you can see some awesome stuff just here:</p>
+
+            <div class="Kubikas"></div>
 
         </div>
 

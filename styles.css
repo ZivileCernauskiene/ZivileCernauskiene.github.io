@@ -19,6 +19,8 @@
 
 .third {
     background-color: brown;
+    width: 300px;
+    position: fixed;
 }
 
 .index a,
@@ -76,24 +78,34 @@
     color: white;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-transform: capitalize;
+    font-size: 30px;
+}
+
+.klausimynas label {
+    color: aqua;
+}
+
+.klausimynas button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px
 }
 
 .KL1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .KL2,
 .KL3,
 .KL4,
 .KL5,
-.perfecta {
+.perfecta,
+.klaida {
     display: none;
+    flex-direction: column;
 }
 
-.perfecta {
-    display: none;
-    height: 100px;
-    width: 100px;
-    background-color: green;
-}
+.perfecta {}

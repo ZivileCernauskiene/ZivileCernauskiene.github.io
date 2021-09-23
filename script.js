@@ -49,44 +49,49 @@ function sokaka() {
 function funk1() {
     if (document.getElementById("kl1taip").checked) {
         document.getElementsByClassName("KL1")[0].style.display = "none";
-        document.getElementsByClassName("KL2")[0].style.display = "block"
+        document.getElementsByClassName("KL2")[0].style.display = "flex"
     } else {
-        window.location.reload()
+        document.getElementsByClassName("KL1")[0].style.display = "none";
+        document.getElementsByClassName("klaida")[0].style.display = "flex"
     }
 }
 
 function funk2() {
     if (document.getElementById("kl2taip").checked) {
         document.getElementsByClassName("KL2")[0].style.display = "none";
-        document.getElementsByClassName("KL3")[0].style.display = "block"
+        document.getElementsByClassName("KL3")[0].style.display = "flex"
     } else {
-        window.location.reload()
+        document.getElementsByClassName("KL2")[0].style.display = "none";
+        document.getElementsByClassName("klaida")[0].style.display = "flex"
     }
 }
 
 function funk3() {
     if (document.getElementById("kl3taip").checked) {
         document.getElementsByClassName("KL3")[0].style.display = "none";
-        document.getElementsByClassName("KL4")[0].style.display = "block"
+        document.getElementsByClassName("KL4")[0].style.display = "flex"
     } else {
-        window.location.reload()
+        document.getElementsByClassName("KL3")[0].style.display = "none";
+        document.getElementsByClassName("klaida")[0].style.display = "flex"
     }
 }
 
 function funk4() {
     if (document.getElementById("kl4taip").checked) {
         document.getElementsByClassName("KL4")[0].style.display = "none";
-        document.getElementsByClassName("KL5")[0].style.display = "block"
+        document.getElementsByClassName("KL5")[0].style.display = "flex"
     } else {
-        window.location.reload()
+        document.getElementsByClassName("KL4")[0].style.display = "none";
+        document.getElementsByClassName("klaida")[0].style.display = "flex"
     }
 }
 
 function funk5() {
-    if (document.getElementById("kl4taip").checked) {
+    if (document.getElementById("kl5taip").checked) {
         document.getElementsByClassName("KL5")[0].style.display = "none";
-        document.getElementsByClassName("perfecta")[0].style.display = "block"
+        document.getElementsByClassName("perfecta")[0].style.display = "flex"
     } else {
-        window.location.reload()
+        document.getElementsByClassName("KL5")[0].style.display = "none";
+        document.getElementsByClassName("klaida")[0].style.display = "flex"
     }
 }
